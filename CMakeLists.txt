@@ -3,4 +3,6 @@ project(project_pppi)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(project_pppi main.cpp)
+add_executable(project_pppi main.cpp
+        calculator.h
+        calculator.cpp)
